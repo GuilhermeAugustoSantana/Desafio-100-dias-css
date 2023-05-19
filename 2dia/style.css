@@ -1,0 +1,125 @@
+body{
+   margin: 0;
+   background-color: #3FAF82;
+}
+
+.content{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.content-Hamburguer {
+   width: 100px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px; 
+   cursor: pointer;
+}
+
+.hamburguer{
+   background-color: #fff;
+   width: 100px;
+   height: 10px;
+   border-radius: 5px;
+   box-shadow: 1px 2px 10px rgba(0,0,0,0.3);
+}
+
+.line-reverse-one{
+   animation: animati-line-reverse-one 1s ease-in-out forwards;
+}
+
+.line-reverse-two{
+   animation: animati-line-reverse-two 1s ease-in-out forwards;
+}
+
+.line-reverse-three{
+   animation: animati-line-reverse-three 1s ease-in-out forwards;
+}
+
+@keyframes animati-line-reverse-one {
+   0% {
+      transform: translate3d(0, 25px, 0) rotate(45deg);
+   }
+   50% {
+      transform: translate3d(0, 25px, 0) rotate(0deg);
+   }
+
+   100%{
+      transform: translate3d(0, 0, 0) rotate(0);   
+   }
+}
+
+@keyframes animati-line-reverse-two {
+   0% {
+      transform: scale(0);
+      opacity: 0;
+   }
+   100%{
+      transform: scale(1);
+      opacity: 1;  
+   }
+}
+
+@keyframes animati-line-reverse-three {
+   0% {
+      transform: translate3d(0, -25px, 0) rotate(135deg);
+   }
+   50% {
+      transform: translate3d(0, -25px, 0) rotate(0deg);
+   }
+
+   100%{
+      transform: translate3d(0, 0, 0) rotate(0);   
+   }
+}
+
+.line-one {
+   animation: animati-line-one 1s ease-in-out forwards;
+}
+
+.line-two {
+   animation: animati-line-two 1s ease-in-out forwards;  
+}
+
+.line-three {
+   animation: animati-line-three 1s ease-in-out forwards; 
+}
+
+
+@keyframes animati-line-one{
+   0% {
+      transform: translate3d(0, 0, 0) rotate(0deg);
+   }
+   50% {
+      transform: translate3d(0, 25px, 0) rotate(0deg);
+   }
+   100%{
+      transform: translate3d(0, 25px, 0) rotate(45deg);   
+   }
+}
+
+@keyframes animati-line-two{
+   0% {
+      transform: scale(1);
+      opacity: 1;
+   }
+   100%{
+      transform: scale(0);  
+      opacity: 0; 
+   }
+}
+
+@keyframes animati-line-three{
+   0% {
+      transform: translate3d(0, 0, 0) rotate(0deg);
+   }
+   50% {
+      transform: translate3d(0, -25px, 0) rotate(0deg);
+   }
+   100%{
+      transform: translate3d(0, -25px, 0) rotate(135deg);   
+   }
+}
