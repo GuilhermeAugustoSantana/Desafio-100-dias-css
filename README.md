@@ -7,3 +7,6 @@ Por 100 dias consecutivos, escrevi trechos de HTML e CSS como um processo de apr
 ## Dia 1 do desafio
 <img src="https://j.gifs.com/28lEoA.gif"/>
 
+## Dia 2 do desafio 
+<img src="https://j.gifs.com/79qkwB.gif"/>
+
