@@ -2,5 +2,5 @@
 
 ## Dia 1 do desafio
 
-<img src="img/dia1.png"/>
+<img src="https://j.gifs.com/28lEoA.gif"/>
 
